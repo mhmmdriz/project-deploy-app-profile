@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #29529e;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav h1 a {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+
+  display: flex;
+  gap: 1.5rem;
+}
+
+aside {
+  flex: 1;
+}
+
+aside article header {
+  text-align: center;
+}
+
+aside figure, 
+aside article header h3,
+aside article header p {
+  margin: 0;
+}
+
+aside article section {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+aside article section h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+aside figure img {
+  width: auto;
+  max-height: 200px;
+  border-radius: 100%;
+  border: 1px solid #29529e;
+}
+
+table th {
+  text-align: left;
+}
+
+#socmed {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+#socmed .icons {
+  width: 30px;
+}
+
+.card {
+  box-shadow: 0 2px 5px 2px #29529e;
+  border-radius: 10px;
+  border: 1px solid #29529e;
+  padding: 20px;
+}
+
+#content {
+  flex: 4;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+}
+
+#content .card {
+  padding: 0px;
+}
+
+#content .card h2 {
+  margin-top: 0;
+  padding: 10px 20px; 
+  text-align: center;
+  color: white;
+  background-color: #29529e;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#content .card p {
+  margin: 30px;
+  text-align: justify;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin: 30px;
+}
+
+.inner-card {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #52b4ed;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.inner-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+#tech-stacks .icons {
+  width: 70px;
+}
